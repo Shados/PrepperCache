@@ -10,7 +10,7 @@
     "use_action": {
       "type": "reveal_map",
       "radius": 180,
-      "terrain": [ "cache_main", "forest_trail" ],
+      "terrain": ["cache_main", "forest_trail"],
       "message": "You update your map with the prepper locations."
     }
   }

@@ -175,12 +175,22 @@
     "//": "explosives/incendiaries for adv weapon caches",
     "subtype": "distribution",
     "entries": [
-      { "item": "bot_grenade_hack", "prob": 100, "count-min": 1, "count-max": 2 },
+      {
+        "item": "bot_grenade_hack",
+        "prob": 100,
+        "count-min": 1,
+        "count-max": 2
+      },
       { "item": "bot_manhack", "prob": 100, "count-min": 1, "count-max": 2 },
       { "item": "bot_c4_hack", "prob": 100 },
       { "item": "grenade", "prob": 100, "count-min": 1, "count-max": 3 },
       { "item": "EMPbomb", "prob": 100, "count-min": 1, "count-max": 2 },
-      { "item": "tool_black_powder_charge", "prob": 100, "count-min": 1, "count-max": 3 },
+      {
+        "item": "tool_black_powder_charge",
+        "prob": 100,
+        "count-min": 1,
+        "count-max": 3
+      },
       { "item": "molotov", "prob": 100, "count-min": 1, "count-max": 3 }
     ]
   },
@@ -204,11 +214,11 @@
     "//": "primers for crafting ammo.  I broke these down into different item groups to prevent overspawning of primers",
     "subtype": "distribution",
     "entries": [
-      { "item": "smpistol_primer", "prob": 100, "charges": [ 15, 40 ] },
-      { "item": "shotgun_primer", "prob": 100, "charges": [ 10, 30 ] },
-      { "item": "smrifle_primer", "prob": 100, "charges": [ 10, 30 ] },
-      { "item": "lgrifle_primer", "prob": 100, "charges": [ 10, 30 ] },
-      { "item": "lgpistol_primer", "prob": 100, "charges": [ 10, 30 ] },
+      { "item": "smpistol_primer", "prob": 100, "charges": [15, 40] },
+      { "item": "shotgun_primer", "prob": 100, "charges": [10, 30] },
+      { "item": "smrifle_primer", "prob": 100, "charges": [10, 30] },
+      { "item": "lgrifle_primer", "prob": 100, "charges": [10, 30] },
+      { "item": "lgpistol_primer", "prob": 100, "charges": [10, 30] },
       { "item": "shot_hull", "prob": 100, "count": 30 }
     ]
   },
@@ -256,14 +266,18 @@
     "subtype": "distribution",
     "entries": [
       { "item": "vacutainer", "prob": 100 },
-      { "item": "denat_alcohol", "prob": 50, "container-item": "bottle_plastic" },
+      {
+        "item": "denat_alcohol",
+        "prob": 50,
+        "container-item": "bottle_plastic"
+      },
       { "item": "codeine", "prob": 50 },
-      { "item": "anesthetic", "prob": 25, "charges": [ 1, 2 ] },
+      { "item": "anesthetic", "prob": 25, "charges": [1, 2] },
       { "item": "purifier", "prob": 10 },
       { "item": "mutagen", "prob": 10 },
       { "item": "quikclot", "prob": 25 },
       { "item": "bfipowder", "prob": 25 },
-      { "item": "antibiotics", "prob": 50, "charges": [ 1, 6 ] },
+      { "item": "antibiotics", "prob": 50, "charges": [1, 6] },
       { "item": "thorazine", "prob": 50 },
       { "item": "antiparasitic", "prob": 50 },
       { "item": "adrenaline_injector", "prob": 100 }
@@ -340,14 +354,14 @@
     "//": "armor/clothing supplies for armor/clothing cache",
     "subtype": "distribution",
     "entries": [
-      { "item": "kevlar_plate", "prob": 60, "count": [ 2, 5 ] },
-      { "item": "ceramic_armor", "prob": 40, "count": [ 2, 4 ] },
-      { "item": "alloy_plate", "prob": 10, "count": [ 1, 2 ] },
-      { "item": "steel_plate", "prob": 20, "count": [ 1, 2 ] },
-      { "item": "nomex", "prob": 60, "count": [ 1, 3 ] },
-      { "item": "felt_patch", "prob": 80, "count": [ 3, 6 ] },
-      { "item": "leather", "prob": 80, "count": [ 2, 5 ] },
-      { "item": "neoprene", "prob": 80, "count": [ 1, 3 ] },
+      { "item": "kevlar_plate", "prob": 60, "count": [2, 5] },
+      { "item": "ceramic_armor", "prob": 40, "count": [2, 4] },
+      { "item": "alloy_plate", "prob": 10, "count": [1, 2] },
+      { "item": "steel_plate", "prob": 20, "count": [1, 2] },
+      { "item": "nomex", "prob": 60, "count": [1, 3] },
+      { "item": "felt_patch", "prob": 80, "count": [3, 6] },
+      { "item": "leather", "prob": 80, "count": [2, 5] },
+      { "item": "neoprene", "prob": 80, "count": [1, 3] },
       { "item": "sewing_kit", "prob": 100 },
       { "item": "tailors_kit", "prob": 80 },
       { "item": "scissors", "prob": 80 }
@@ -412,16 +426,16 @@
       { "item": "solder_wire", "prob": 100 },
       { "item": "element", "prob": 100 },
       { "item": "metal_tank_little", "prob": 50 },
-      { "item": "plastic_chunk", "prob": 100, "count": [ 2, 5 ] },
-      { "item": "scrap", "prob": 100, "count": [ 1, 3 ] },
-      { "item": "sheet_metal_small", "prob": 100, "count": [ 1, 4 ] },
+      { "item": "plastic_chunk", "prob": 100, "count": [2, 5] },
+      { "item": "scrap", "prob": 100, "count": [1, 3] },
+      { "item": "sheet_metal_small", "prob": 100, "count": [1, 4] },
       { "item": "cable", "prob": 60 },
-      { "item": "wire", "prob": 100, "count": [ 1, 6 ] }
+      { "item": "wire", "prob": 100, "count": [1, 6] }
     ]
   },
   {
     "id": "gear_survival",
     "type": "item_group",
-    "items": [ [ "cachemap", 3 ] ]
+    "items": [["cachemap", 3]]
   }
 ]

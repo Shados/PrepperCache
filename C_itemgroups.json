@@ -107,7 +107,7 @@
       { "item": "ak47", "prob": 100 },
       { "item": "ar15", "prob": 100 },
       { "item": "acr", "prob": 100 },
-      { "item": "nail_bomb", "prob": 100 },
+      { "item": "small_homemade_grenade", "prob": 100 },
       { "item": "knife_hunting", "prob": 100 },
       { "item": "diveknife", "prob": 100 },
       { "item": "recurbow", "prob": 100 }

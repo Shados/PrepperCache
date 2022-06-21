@@ -182,7 +182,7 @@
       { "item": "grenade", "prob": 100, "count-min": 1, "count-max": 3 },
       { "item": "EMPbomb", "prob": 100, "count-min": 1, "count-max": 2 },
       {
-        "item": "tool_black_powder_charge",
+        "item": "military_explosive_bomb",
         "prob": 100,
         "count-min": 1,
         "count-max": 3

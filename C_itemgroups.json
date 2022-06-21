@@ -160,7 +160,6 @@
       { "item": "m107a1", "prob": 100 },
       { "item": "saiga_12", "prob": 100 },
       { "item": "rm120c", "prob": 20 },
-      { "item": "bio_blaster", "prob": 100 },
       { "item": "bio_blade", "prob": 100 },
       { "item": "bokken", "prob": 150 },
       { "item": "machete", "prob": 175 },
